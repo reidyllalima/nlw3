@@ -28,7 +28,6 @@ h1,
 main h1 {
   animation-delay: 150ms;
   font-size: clamp(4rem, 8vw, 8.4rem);
-
 }
 
 .visit p {
@@ -54,32 +53,27 @@ main h1 {
 }
 
 .visit a:hover {
-    background: #96feff;
-    
+  background: #96feff;
 }
 
-
-
-
-/* Desktop version */ 
-@media(min-width: 760px) {
-
+/* Desktop version */
+@media (min-width: 760px) {
   #container {
-    /* shorthand background: image repeat position / size */ 
+    /* shorthand background: image repeat position / size */
     padding: 5rem 2rem;
-    background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
-
-    
+    background: url("../images/bg.svg") no-repeat 80% /
+      clamp(30rem, 54vw, 56rem);
   }
 
   header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
   }
 
-  .location, h1, .visit p {
+  .location,
+  h1,
+  .visit p {
     height: initial;
     text-align: initial;
   }
@@ -100,7 +94,7 @@ main h1 {
   }
 
   .visit {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
   }
